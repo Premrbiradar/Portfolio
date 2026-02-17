@@ -643,6 +643,7 @@ header .navbar ul li a:hover {
 .work {
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
+  height: 60%;
 }
 .work h2 {
   color: #fff;
@@ -650,12 +651,13 @@ header .navbar ul li a:hover {
 }
 .work .heading span {
   color: rgb(255, 230, 0);
+  
 }
 .work .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  margin: 2rem;
+  gap: 1rem;
+  margin: 1rem;
 }
 .work .box-container .box {
   flex: 1 1 30rem;
@@ -685,13 +687,14 @@ header .navbar ul li a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 4.5rem;
+  height: 5.5rem;
   width: 100%;
   padding-left: 1rem;
   background: #ffd900;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
+  margin: 1rem;
 }
 .work .box-container .box:hover .content {
   top: 25%;
@@ -835,6 +838,8 @@ header .navbar ul li a:hover {
 .experience .right::after {
   left: -16px;
 }
+
+
 .experience .content {
   background-color: #f68c09;
   position: relative;
